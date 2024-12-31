@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background:  #1B4332;
+    color: white;
+    text-align: center;
+}
+#app{
+    padding: 20px;
+}
+button{
+    margin: 5px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+#todo-list{
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li{
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1B4332;
+}
+
+#todo-list li.completed{
+    text-decoration: line-through;
+    color: yellow;
+}
