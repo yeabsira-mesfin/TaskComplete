@@ -41,5 +41,5 @@ button:hover{
 
 #todo-list li.completed{
     text-decoration: line-through;
-    color: yellow;
+    color: red;
 }
